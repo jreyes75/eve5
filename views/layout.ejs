@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=1" />
+    <title>EVE5</title>
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/eve5.css" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+  </head>
+
+  <body>
+    <div id="nav">
+      <a href="/">
+        <div class="col-sm nav-align"><img src="images/logo.png" width="20%"></div>
+      </a>
+        <div class="col-sm nav-align">
+          <a href="/"> <span class="button">Home</span> </a>
+          <a href="/release"> <span class="button">Releases</span> </a>
+          <!-- <a href="/demos.ejs"> <span class="button">Recipies</span> </a> -->
+          <a href="/podcast"> <span class="button">Podcast</span> </a>
+          <a href="/about"> <span class="button">About</span> </a>
+          <a href="/contact"> <span class="button">Contact</span> </a>
+        </div>
+      </div>
+<br>
+  
+  <div class="container">
+    <div style="padding-top:100px">
+    <%- body %>
+    </div>
+  </div>
+  
+</body>
+</html>
